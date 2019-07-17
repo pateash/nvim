@@ -6,7 +6,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-call plug#begin('~/.local/share/nvim/plugged') " for neovim "
+call plug#begin('~/.config/nvim/plugged') " for neovim "
 Plug 'VundleVim/Vundle.vim' 				" let Vundle manage Vundle, required"
 Plug 'scrooloose/nerdtree'  				" for showing file as tree"
 Plug 'tpope/vim-surround'				    " for having surrounding capabilities"

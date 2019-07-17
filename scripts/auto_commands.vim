@@ -1,7 +1,7 @@
-"Automatically source the Vimrc file on save.
+"Automatically source the anyfile file on save.
 
 augroup autosourcing
 	autocmd!
-	autocmd BufWritePost .vimrc,.vim/*.vim source $MYVIMRC
+	autocmd BufWritePost init.vim,nvim/*.vim source $MYVIMRC
 augroup END
 
