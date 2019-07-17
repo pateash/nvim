@@ -4,7 +4,10 @@ let mapleader = ',' 						    	"The default is \, but a comma is much better.
 filetype off
 
 "------------Plugins---------------"
-source ~/.config/nvim/scripts/plugins.vim " downloading through vim-plug"
+source ~/.config/nvim/scripts/plugins.vim "downloading through vim-plug"
+"installing plugins"
+"PlugInstall"
+
 
 "-------------Visual Settings--------------"
 source 	~/.config/nvim/scripts/visuals.vim

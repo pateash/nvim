@@ -1,13 +1,10 @@
 " this will download plug.vim ( for vim-plug ) when we first load our .vimrc "
 
-vim_plug_location="~/.config/nvim/autoload/plug.vim"
-
-if empty(glob($vim_plug_location))
-  silent !curl -fLo $vim_plug_location --create-dirs
+if empty(glob('~/.config/nvim/autoload/plug.vim'))
+  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
-
 
 call plug#begin('~/.local/share/nvim/plugged') " for neovim "
 Plug 'VundleVim/Vundle.vim' 				" let Vundle manage Vundle, required"
@@ -17,7 +14,7 @@ Plug 'tpope/vim-commentary'			" commenting multiline"
 Plug 'mattn/emmet-vim'				    " emmet official Plugin"
 Plug 'tpope/vim-fugitive' 				" command line support"
 Plug 'vim-syntastic/syntastic'			" syntax checker"
-Plug 'kien/ctrlp.vim'						" ControlP fuzzy search like sublime"
+Plug 'kien/ctrlp.vim'					" ControlP fuzzy search like sublime"
 Plug 'thinca/vim-quickrun'				"running file from vim"
 
 "---------Plugins for themes---------------"
