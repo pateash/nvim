@@ -16,7 +16,7 @@ highlight NonText ctermfg=1
 colorscheme PaperColor "color scheme
 
 "set guifont=Bitstream\ Vera\ Sans\ Mono\ 13 "Set the default font family and size.
-set guifont=Ubuntu\ Mono\ derivative\ Powerline:h20
+"set guifont=Ubuntu\ Mono\ derivative\ Powerline:h20
 
 set synmaxcol=0					 	" set number of columns to search for syntax"
 
