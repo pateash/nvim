@@ -19,16 +19,23 @@ vno <up> <Nop>
 "-------------Insert Mode Mappings--------------"
 
 "mapping esc to jj for easy escaping"
-imap jj <Esc>
+inoremap jj <Esc> " noremap will not allow remapping of jj"
 
 
 "-------------Normal Mode Mappings--------------"
 
-"Make it easy to edit the Vimrc file.
-nmap <Leader>ev :tabedit $MYVIMRC<cr>
+"Make it easy to edit the configuration file.
+nnoremap <Leader>ec :e $MYVIMRC<cr>
+
+"sourcing file manually, will not required as we have auto_commands.vim"
+nnoremap <silent> <leader>sc :source $MYVIMRC<CR> " <silent> is used to not give output"
 
 "Add simple highlight removal, hit ,<space> for removing.
-nmap <Leader><space> :nohlsearch<cr>
+nnoremap <Leader><space> :nohlsearch<cr>
 
 "Make NERDTree easier to toggle.
-nmap <Leader>1 :NERDTreeToggle<cr>
+nnoremap <Space> :NERDTreeToggle<CR>
+
+"showing tagbar.
+nnoremap <Leader>tb :TagbarToggle<CR>
+
