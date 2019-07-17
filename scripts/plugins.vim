@@ -1,13 +1,12 @@
 " this will download plug.vim ( for vim-plug ) when we first load our .vimrc
-if empty(glob('~/.vim/autoload/plug.vim'))
+if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 
-" call plug#begin('~/.local/share/nvim/plugged') " for neovim
-call plug#begin('~/.vim/plugged')  " for vim
+call plug#begin('~/.local/share/nvim/plugged') " for neovim
 Plug 'VundleVim/Vundle.vim' 				" let Vundle manage Vundle, required
 Plug 'scrooloose/nerdtree'  				" for showing file as tree
 Plug 'tpope/vim-surround'				    " for having surrounding capabilities

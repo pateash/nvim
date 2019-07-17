@@ -19,5 +19,6 @@ https://medium.com/@elviocavalcante/5-steps-to-improve-your-terminal-appearance-
 download directly **ubuntuMono** - ( ttf file)
 https://github.com/powerline/fonts/tree/master/UbuntuMono
 
-**for NeoVim in Iterm** install and set in iterm ( already added in settings in iterm_profiles gist)
+**for NeoVim in Iterm** 
+install font and set in iterm ( already added in settings in iterm_profiles gist)
 
