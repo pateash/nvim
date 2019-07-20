@@ -1,17 +1,17 @@
 # NeoVim Configuration files
 
-## step-1
+### step-1
 clone repository in root **~/.config** as nvim/
 
-## step-2 
+### step-2 
 install powerline fonts
 
-### for ubuntu/linux
+#### for ubuntu/linux
 ```bash
 sudo apt-get install fonts-powerline
 ```
 
-### for mac 
+#### for mac 
 
 instructions- 
 https://medium.com/@elviocavalcante/5-steps-to-improve-your-terminal-appearance-on-mac-osx-f58b20058c84
@@ -23,6 +23,19 @@ https://github.com/powerline/fonts/tree/master/UbuntuMono
 install font and set in iterm ( already added in settings in iterm_profiles gist)
 
 
-# if we are getting,
-# Warning: Failed to set locale category LC_NUMERIC to en_IN.
+#### if we are getting,
+##### Warning: Failed to set locale category LC_NUMERIC to en_IN.
 export LC_ALL=en_US.UTF-8
+
+
+
+## Vim Plug for Plugin Management
+
+Commands
+
+```bash
+:PlugInstall # installing plugin
+:PlugClean # removing plugins which are not there in .vimrc/init.vim
+:PlugUpdate # update version of plugins
+
+```
