@@ -3,6 +3,14 @@ syntax enable
 let mapleader = ',' 						    	"The default is \, but a comma is much better.
 filetype off
 
+
+" mapping shift+; -> ;, saving shift for any command "
+nnoremap ; :
+
+" say vim to not store swap or backup file, use git instead"
+set nobackup
+set noswapfile
+
 "------------Plugins---------------"
 source ~/.config/nvim/scripts/plugins.vim  "downloading through vim-plug"
 

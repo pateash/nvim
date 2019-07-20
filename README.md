@@ -22,3 +22,7 @@ https://github.com/powerline/fonts/tree/master/UbuntuMono
 **for NeoVim in Iterm** 
 install font and set in iterm ( already added in settings in iterm_profiles gist)
 
+
+# if we are getting,
+# Warning: Failed to set locale category LC_NUMERIC to en_IN.
+export LC_ALL=en_US.UTF-8
