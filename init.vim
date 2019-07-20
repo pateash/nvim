@@ -14,3 +14,5 @@ source 	~/.config/nvim/scripts/movement_and_split_management.vim
 
 "-------------Configs and Auto-Commands--------------"
 source 	~/.config/nvim/scripts/nvim_configs.vim
+
+echom "configs sourced ;)"
