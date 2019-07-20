@@ -44,3 +44,7 @@ nnoremap <Leader><space> :nohlsearch<cr>
 
 set hlsearch								"Highlight all matched terms."
 set incsearch								"Incrementally highlight, as we type."
+
+" ======= TAB MANAGEMENT in all modes"
+noremap <left> :tabp<cr>
+noremap <right> :tabn<cr>
