@@ -3,20 +3,22 @@ Plug 'vim-syntastic/syntastic'			" syntax checker"
 
 """ ===== source: https://codeyarns.com/2014/11/06/how-to-use-syntastic-plugin-for-vim/
 "  To setup Syntastic to automatically load errors into the location list,
-"add this line to your .vimrc:
 
-let g:syntastic_always_populate_loc_list = 1
-
+let g:syntastic_always_populate_loc_list = 1 " so that we can navigate between errors"
 
 "By default, Syntastic does not check for errors when
 "a file is loaded into Vim.
-"To enable that, add this line to your .vimrc:
 
 let g:syntastic_check_on_open = 1
 
 "By default, Syntastic checks for errors whenever you save the file.
-" To disable this,
-"add this line to your .vimrc:
+" To disable this
+" Note - :w might be required as it is not working perfectly
+
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_error_symbol = "✗"
+
+"======= navigating across errors"
+nnoremap ;n :lprev<cr>
+nnoremap <leader>n :lnext<cr>
