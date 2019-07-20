@@ -7,13 +7,10 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/plugged') " for neovim "
-Plug 'VundleVim/Vundle.vim' 				" let Vundle manage Vundle, required"
-Plug 'scrooloose/nerdtree'  				" for showing file as tree"
 Plug 'tpope/vim-surround'				    " for having surrounding capabilities"
 Plug 'tpope/vim-commentary'			" commenting multiline"
 Plug 'mattn/emmet-vim'				    " emmet official Plugin"
 Plug 'tpope/vim-fugitive' 				" command line support"
-Plug 'vim-syntastic/syntastic'			" syntax checker"
 Plug 'kien/ctrlp.vim'					" ControlP fuzzy search like sublime"
 Plug 'thinca/vim-quickrun'				"running file from vim"
 
@@ -23,7 +20,6 @@ Plug 'rafi/awesome-vim-colorschemes'			"themes"
 
 Plug 'leafgarland/typescript-vim'                     "typescript syntax"
 Plug 'Quramy/tsuquyomi'				"typescript ide support"
-
 
 "status line plugin"
 Plug 'vim-airline/vim-airline'
@@ -40,6 +36,9 @@ Plug 'honza/vim-snippets'
 
 "------Plugins for programming-syntax"
 Plug 'posva/vim-vue'		"for vue syntax"
-Plug 'majutsushi/tagbar'	"for tags for a file(like functions and variables"
+
+"====== adding plugins from specific file ======
+source ~/.config/nvim/plugins/nerdtree_and_tagbar.vim
+source ~/.config/nvim/plugins/syntastic.vim
 
 call plug#end()

@@ -4,26 +4,13 @@ let mapleader = ',' 						    	"The default is \, but a comma is much better.
 filetype off
 
 "------------Plugins---------------"
-source ~/.config/nvim/scripts/plugins.vim "downloading through vim-plug"
-"installing plugins"
-"PlugInstall"
+source ~/.config/nvim/scripts/plugins.vim  "downloading through vim-plug"
 
-
-"-------------Visual Settings--------------"
-source 	~/.config/nvim/scripts/visuals.vim
-
-"-------------Search--------------"
-set hlsearch								"Highlight all matched terms."
-set incsearch								"Incrementally highlight, as we type."
-
-"------------Plugins---------------"
-
-"------------Split Management--------------"
-source 	~/.config/nvim/scripts/split_mgmt.vim
-
+"-------------General and visual Settings--------------"
+source 	~/.config/nvim/scripts/general_and_visuals.vim
 
 "-------------Mappings--------------"
-source 	~/.config/nvim/scripts/mappings.vim
+source 	~/.config/nvim/scripts/movement_and_split_management.vim
 
-"-------------Auto-Commands--------------"
-source 	~/.config/nvim/scripts/auto_commands.vim
+"-------------Configs and Auto-Commands--------------"
+source 	~/.config/nvim/scripts/nvim_configs.vim

@@ -1,3 +1,12 @@
+"============== General Settings ===============
+
+syntax enable
+set backspace=indent,eol,start                                          "Make backspace behave like every other editor.
+let mapleader = ',' 						    	"The default is \, but a comma is much better.
+set number								"Let's activate line numbers.
+
+set dict=/usr/share/dict/words     "set dictionary location in unix, automatically available
+
 "-------------GUI--------------"
 set number								"Let's activate line numbers.
 
@@ -21,11 +30,10 @@ colorscheme PaperColor "color scheme
 set synmaxcol=0					 	" set number of columns to search for syntax"
 
 "-----------Disable Gui scrollbars---------"
-set guioptions-=l                           
+set guioptions-=l
 set guioptions-=L
 set guioptions-=r
 set guioptions-=R
 
 "-------------For MacVim--------------"
-
 set linespace=15   						    "Macvim-specific line-height.
