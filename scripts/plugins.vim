@@ -40,5 +40,7 @@ Plug 'posva/vim-vue'		"for vue syntax"
 "====== adding plugins from specific file ======
 source ~/.config/nvim/plugins/nerdtree_and_tagbar.vim
 source ~/.config/nvim/plugins/syntastic.vim
+source ~/.config/nvim/plugins/vim-cpp-enhanced-highlight.vim
+
 
 call plug#end()
