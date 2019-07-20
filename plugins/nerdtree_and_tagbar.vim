@@ -2,12 +2,12 @@
 Plug 'scrooloose/nerdtree'  				" for showing file as tree"
 
 "Make NERDTree easier to toggle.
-nnoremap <Space> :NERDTreeToggle<CR>
+nnoremap <Leader>1 :NERDTreeToggle<CR>
 
 Plug 'majutsushi/tagbar'	"for tags for a file(like functions and variables"
 
 "showing tagbar.
-nnoremap <Leader>tb :TagbarToggle<CR>
+nnoremap <Leader>2 :TagbarToggle<CR>
 
 " distraction free mode "
 let s:hidden_all = 0
@@ -35,4 +35,4 @@ function! ToggleHiddenAll()
     endif
 endfunction
 
-nnoremap <silent> <leader>h :call ToggleHiddenAll()<CR>
+nnoremap <silent><leader>h :call ToggleHiddenAll()<CR>

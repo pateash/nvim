@@ -18,4 +18,4 @@ nnoremap <silent> <leader>sc :source $MYVIMRC<CR> " <silent> is used to not give
 "nnoremap <silent><C-x> :!./%:r.out<cr>
 
 "===== combining both in one, write + compile + execute
-nnoremap <silent><C-x> :w<cr>:!g++ -o  %:r.out % -std=c++11<cr>:!./%:r.out<cr>
+nnoremap <silent><space> :w<cr>:!g++ -o  %:r.out % -std=c++11<cr>:!./%:r.out<cr>
