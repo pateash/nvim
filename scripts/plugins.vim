@@ -12,7 +12,6 @@ Plug 'tpope/vim-commentary'			" commenting multiline"
 Plug 'mattn/emmet-vim'				    " emmet official Plugin"
 Plug 'tpope/vim-fugitive' 				" command line support"
 Plug 'kien/ctrlp.vim'					" ControlP fuzzy search like sublime"
-Plug 'thinca/vim-quickrun'				"running file from vim"
 
 "---------Plugins for themes---------------"
 Plug 'flazz/vim-colorschemes'
@@ -41,6 +40,7 @@ Plug 'posva/vim-vue'		"for vue syntax"
 source ~/.config/nvim/plugins/nerdtree_and_tagbar.vim
 source ~/.config/nvim/plugins/syntastic.vim
 source ~/.config/nvim/plugins/vim-cpp-enhanced-highlight.vim
+source ~/.config/nvim/plugins/vim-quickrun.vim
 
 
 call plug#end()
