@@ -23,12 +23,6 @@ https://github.com/powerline/fonts/tree/master/UbuntuMono
 install font and set in iterm ( already added in settings in iterm_profiles gist)
 
 
-#### if we are getting,
-##### Warning: Failed to set locale category LC_NUMERIC to en_IN.
-export LC_ALL=en_US.UTF-8
-
-
-
 ## Vim Plug for Plugin Management
 
 Commands
@@ -39,3 +33,13 @@ Commands
 :PlugUpdate # update version of plugins
 
 ```
+
+
+## Issues
+if we are getting Error,
+##### Warning: Failed to set locale category LC_NUMERIC to en_IN
+add following to .profile ( have already added in **mac_config** just softlink
+```bash
+export LC_ALL=en_US.UTF-8
+```
+
