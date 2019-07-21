@@ -10,7 +10,6 @@ call plug#begin('~/.config/nvim/plugged') " for neovim "
 Plug 'tpope/vim-surround'				    " for having surrounding capabilities"
 Plug 'tpope/vim-commentary'			" commenting multiline"
 Plug 'mattn/emmet-vim'				    " emmet official Plugin"
-Plug 'tpope/vim-fugitive' 				" command line support"
 Plug 'kien/ctrlp.vim'					" ControlP fuzzy search like sublime"
 
 "---------Plugins for themes---------------"
@@ -25,7 +24,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "powerline/powerline - could use that also"
 
-Plug 'gregsexton/gitv'             " extension to fugitive shows better log"
 
 "------Plugins for snippets "
 Plug 'MarcWeber/vim-addon-mw-utils'
@@ -41,6 +39,6 @@ source ~/.config/nvim/plugins/nerdtree_and_tagbar.vim
 source ~/.config/nvim/plugins/syntastic.vim
 source ~/.config/nvim/plugins/vim-cpp-enhanced-highlight.vim
 source ~/.config/nvim/plugins/vim-quickrun.vim
-
+source ~/.config/nvim/plugins/fugitive_and_gitv.vim
 
 call plug#end()
