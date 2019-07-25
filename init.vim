@@ -11,16 +11,20 @@ nnoremap ; :
 set nobackup
 set noswapfile
 
+"-------------Configs and Auto-Commands--------------"
+source 	~/.config/nvim/scripts/nvim_configs.vim
+
+
+"-------------Mappings--------------"
+source 	~/.config/nvim/scripts/movements.vim
+source 	~/.config/nvim/scripts/split_management.vim
+source 	~/.config/nvim/scripts/tag_management.vim
+source 	~/.config/nvim/scripts/search.vim
+
 "------------Plugins---------------"
 source ~/.config/nvim/scripts/plugins.vim  "downloading through vim-plug"
 
 "-------------General and visual Settings--------------"
 source 	~/.config/nvim/scripts/general_and_visuals.vim
-
-"-------------Mappings--------------"
-source 	~/.config/nvim/scripts/movement_and_split_management.vim
-
-"-------------Configs and Auto-Commands--------------"
-source 	~/.config/nvim/scripts/nvim_configs.vim
 
 echom "configs sourced ;)"
