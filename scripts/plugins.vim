@@ -40,5 +40,6 @@ source ~/.config/nvim/plugins/syntastic.vim
 source ~/.config/nvim/plugins/vim-cpp-enhanced-highlight.vim
 source ~/.config/nvim/plugins/vim-quickrun.vim
 source ~/.config/nvim/plugins/fugitive_and_gitv.vim
+source ~/.config/nvim/plugins/vim-system-copy.vim
 
 call plug#end()

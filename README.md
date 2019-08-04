@@ -34,6 +34,8 @@ Commands
 
 ```
 
+## Copy and pasting from system clipboard to Vim and vice-versa(if we are not in a termal where we can use right click to copy/paste)
+* using plugin https://github.com/christoomey/vim-system-copy
 
 ## Issues
 if we are getting Error,
