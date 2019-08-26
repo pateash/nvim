@@ -16,7 +16,7 @@ sudo apt-get install fonts-powerline
 instructions- 
 https://medium.com/@elviocavalcante/5-steps-to-improve-your-terminal-appearance-on-mac-osx-f58b20058c84
 
-download directly **ubuntuMono** - ( ttf file)
+download directly **ubuntuMono** - ( ttf file) ( already downloaded in mac_config repo )
 https://github.com/powerline/fonts/tree/master/UbuntuMono
 
 **for NeoVim in Iterm** 
