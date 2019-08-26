@@ -13,7 +13,12 @@ sudo apt-get install fonts-powerline
 
 #### for mac 
 
-instructions- 
+```bash
+brew tap homebrew/cask-fonts
+brew cask install font-ubuntu-mono-derivative-powerline
+```
+
+alternative instructions- 
 https://medium.com/@elviocavalcante/5-steps-to-improve-your-terminal-appearance-on-mac-osx-f58b20058c84
 
 download directly **ubuntuMono** - ( ttf file) ( already downloaded in mac_config repo )
