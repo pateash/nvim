@@ -21,6 +21,7 @@ highlight NonText ctermfg=1
 
 colorscheme PaperColor "color scheme
 
+" GUIFONT for macVim/Gvim not used for VIMR"
 "set guifont=Bitstream\ Vera\ Sans\ Mono\ 13 "Set the default font family and size.
 "set guifont=Ubuntu\ Mono\ derivative\ Powerline:h20
 
