@@ -18,7 +18,7 @@ source 	~/.config/nvim/scripts/nvim_configs.vim
 "-------------Mappings--------------"
 source 	~/.config/nvim/scripts/movements.vim
 source 	~/.config/nvim/scripts/split_management.vim
-source 	~/.config/nvim/scripts/tag_management.vim
+source 	~/.config/nvim/scripts/tab_management.vim
 source 	~/.config/nvim/scripts/search.vim
 
 "------------Plugins---------------"

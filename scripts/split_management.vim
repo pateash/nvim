@@ -6,7 +6,7 @@ set splitright								"And to the right. This feels more natural.
 "We'll set simpler mappings to switch between splits.
 " split -> :vsp for vertiacal and horizontal with :sp.
 
-nnoremap <C-J> <C-W><C-J>				"mapping ctrl+j -> ctrl+w+j for split navigation, j->down and so on.
+nnoremap <C-J> <C-W><C-J>	"mapping ctrl+j -> ctrl+w+j for split navigation, j->down and so on.
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <C-L> <C-W><C-L>

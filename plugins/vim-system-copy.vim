@@ -7,8 +7,5 @@ Plug 'christoomey/vim-system-copy'
 nmap <leader>c cP   "copy
 nmap <leader>v cV   "paste
 
-"" Issues raised
-"https://github.com/christoomey/vim-system-copy/issues/26
-
 
 

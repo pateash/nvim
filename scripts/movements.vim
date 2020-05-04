@@ -1,6 +1,6 @@
 "============= Unmap the arrow keys =============
 
-"move line up and down in other normal mode"
+"move line up and down in other normal mode TODO: add way to move block in visual mode"
 no <down> ddp
 no <left> <Nop>
 no <right> <Nop>
