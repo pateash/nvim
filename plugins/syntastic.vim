@@ -1,6 +1,10 @@
 
 Plug 'vim-syntastic/syntastic'			" syntax checker"
 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()} " shows error in status line"
+set statusline+=%*
+
 """ ===== source: https://codeyarns.com/2014/11/06/how-to-use-syntastic-plugin-for-vim/
 "  To setup Syntastic to automatically load errors into the location list,
 
