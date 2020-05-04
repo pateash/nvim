@@ -7,9 +7,6 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/plugged') " for neovim "
-Plug 'tpope/vim-surround'				    " for having surrounding capabilities"
-Plug 'tpope/vim-commentary'			" commenting multiline"
-Plug 'mattn/emmet-vim'				    " emmet official Plugin"
 Plug 'kien/ctrlp.vim'					" ControlP fuzzy search like sublime"
 
 "---------Plugins for themes---------------"
@@ -41,5 +38,6 @@ source ~/.config/nvim/plugins/vim-cpp-enhanced-highlight.vim
 source ~/.config/nvim/plugins/vim-quickrun.vim
 source ~/.config/nvim/plugins/fugitive_and_gitv.vim
 source ~/.config/nvim/plugins/vim-system-copy.vim
+source ~/.config/nvim/plugins/vim_commentary_surround_emmet.vim
 
 call plug#end()

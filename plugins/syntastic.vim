@@ -19,6 +19,10 @@ let g:syntastic_check_on_wq = 0
 
 let g:syntastic_error_symbol = "✗"
 
+" setting compiler and options "
+let g:syntastic_cpp_compiler = 'g++'
+let g:syntastic_cpp_compiler_options = ' -std=c++14'
+
 "======= navigating across errors"
 nnoremap ;n :lprev<cr>
 nnoremap <leader>n :lnext<cr>
