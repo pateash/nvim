@@ -24,6 +24,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 "------Plugins for snippets "
 Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'wakatime/vim-wakatime'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
