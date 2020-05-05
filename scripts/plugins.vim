@@ -40,5 +40,6 @@ source ~/.config/nvim/plugins/vim-quickrun.vim
 source ~/.config/nvim/plugins/fugitive_and_gitv.vim
 source ~/.config/nvim/plugins/vim-system-copy.vim
 source ~/.config/nvim/plugins/vim_commentary_surround_emmet.vim
+source ~/.config/nvim/plugins/coc.vim
 
 call plug#end()
