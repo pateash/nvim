@@ -24,6 +24,13 @@ https://medium.com/@elviocavalcante/5-steps-to-improve-your-terminal-appearance-
 download directly **ubuntuMono** - ( ttf file) ( already downloaded in mac_config repo )
 https://github.com/powerline/fonts/tree/master/UbuntuMono
 
+### Setting Fonts
+
+* for iterm -> follow above Medium link
+
+* for VimR -> just install **powerline** font ( present in mac_config repo) on mac, and set font in **VimR Preferences**
+
+
 **for NeoVim in Iterm** 
 install font and set in iterm ( already added in settings in iterm_profiles gist)
 
