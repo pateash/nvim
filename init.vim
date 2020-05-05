@@ -20,6 +20,7 @@ source 	~/.config/nvim/scripts/movements.vim
 source 	~/.config/nvim/scripts/split_management.vim
 source 	~/.config/nvim/scripts/tab_management.vim
 source 	~/.config/nvim/scripts/search.vim
+source 	~/.config/nvim/scripts/system_specific.vim
 
 "------------Plugins---------------"
 source ~/.config/nvim/scripts/plugins.vim  "downloading through vim-plug"
