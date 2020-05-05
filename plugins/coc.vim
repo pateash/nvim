@@ -1,3 +1,5 @@
+"config source - https://github.com/neoclide/coc.nvim "
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " TextEdit might fail if hidden is not set.
