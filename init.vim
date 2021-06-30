@@ -27,3 +27,5 @@ source ~/.config/nvim/scripts/plugins.vim  "downloading through vim-plug"
 
 "-------------General and visual Settings--------------"
 source 	~/.config/nvim/scripts/general_and_visuals.vim
+
+echom "configs sourced ;)"
