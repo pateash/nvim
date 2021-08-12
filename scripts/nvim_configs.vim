@@ -18,5 +18,8 @@ nnoremap <silent> <leader>sc :source $MYVIMRC<CR> " <silent> is used to not give
 " ======== making current directly default in which directory we are editing file"
     " reference - https://vim.fandom.com/wiki/Set_working_directory_to_the_current_file
     " changing current working directory for vim and NERDTree's current working directory"
-nnoremap <leader>cd :lcd %:p:h<CR>:NERDTreeCWD<CR>
+    " changing cwd for nerdtree and command line of vim as well"
+nnoremap <leader>cd :lcd %:p:h<CR>:NERDTreeCWD<CR>:cd %:p:h<CR>:pwd<CR>
 
+" opening CP directory automatically"
+nnoremap <leader>ep :tabedit ~/dev/cp/src/main/main.cpp<CR>:vsp ~/dev/cp/src/resources/in.txt<CR>:sp ~/dev/cp/src/resources/out.txt<CR>

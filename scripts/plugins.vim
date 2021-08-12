@@ -36,11 +36,12 @@ Plug 'posva/vim-vue'		"for vue syntax"
 source ~/.config/nvim/plugins/nerdtree_and_tagbar.vim
 source ~/.config/nvim/plugins/syntastic.vim
 source ~/.config/nvim/plugins/vim-cpp-enhanced-highlight.vim
-source ~/.config/nvim/plugins/vim-quickrun.vim
 source ~/.config/nvim/plugins/git_plugins.vim
 source ~/.config/nvim/plugins/vim-system-copy.vim
 source ~/.config/nvim/plugins/vim_commentary_surround_emmet.vim
 source ~/.config/nvim/plugins/coc.vim
 source ~/.config/nvim/plugins/search_plugins.vim
+
+"source ~/.config/nvim/plugins/vim-quickrun.vim - not working fine
 
 call plug#end()

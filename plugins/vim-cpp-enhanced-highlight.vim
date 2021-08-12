@@ -14,3 +14,9 @@ let g:cpp_experimental_template_highlight = 1
 let g:cpp_concepts_highlight = 1
 
 let c_no_curly_error=1
+
+
+"===== combining both in one, write + compile + execute
+nnoremap <silent><space> :w<cr>:!g++ -o  ./%:r.out % -std=c++11<cr>:!./%:r.out ~/dev/cp/src/resources/<cr>
+
+
