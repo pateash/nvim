@@ -9,6 +9,6 @@ nnoremap <silent><C-x> :QuickRun<cr>
     "nnoremap <silent><C-x> :!./%:r.out<cr>
 
 "===== combining both in one, write + compile + execute
-nnoremap <silent><space> :w<cr>:!g++ -o  %:r.out % -std=c++11<cr>:!./%:r.out<cr>
+nnoremap <silent><space> :w<cr>:!g++ -o  ./%:r.out % -std=c++11<cr>:!./%:r.out ~/dev/code/src/resources/<cr>
 
 
