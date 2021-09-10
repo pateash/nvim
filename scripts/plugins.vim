@@ -35,7 +35,7 @@ Plug 'posva/vim-vue'		"for vue syntax"
 "====== adding plugins from specific file ======
 source ~/.config/nvim/plugins/nerdtree_and_tagbar.vim
 source ~/.config/nvim/plugins/syntastic.vim
-source ~/.config/nvim/plugins/vim-cpp-enhanced-highlight.vim
+source ~/.config/nvim/plugins/vim-cpp-configs.vim
 source ~/.config/nvim/plugins/git_plugins.vim
 source ~/.config/nvim/plugins/vim-system-copy.vim
 source ~/.config/nvim/plugins/vim_commentary_surround_emmet.vim
