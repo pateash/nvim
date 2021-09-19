@@ -17,6 +17,7 @@ let c_no_curly_error=1
 
 
 "===== combining both in one, write + compile + execute
-nnoremap <silent><space> :w<cr>:!g++ -o  %./:r.out % -std=c++11<cr>:!./%:r.out ~/dev/cp/src/resources/<cr><cr>
+""nnoremap <silent><space> :w<cr>:!g++ -o  %./:r.out % -std=c++11<cr>:!./%:r.out ~/dev/cp/src/resources/<cr><cr>
 
+nnoremap <silent><space> :w<cr>:!g++ % -o %:r.out -std=c++11<cr>:!./%:r.out ~/dev/cp/src/resources/<cr>
 
