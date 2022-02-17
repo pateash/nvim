@@ -13,8 +13,8 @@ call plug#begin('~/.config/nvim/plugged') " for neovim "
 Plug 'flazz/vim-colorschemes'
 Plug 'rafi/awesome-vim-colorschemes'			"themes"
 
-Plug 'leafgarland/typescript-vim'                     "typescript syntax"
-Plug 'Quramy/tsuquyomi'				"typescript ide support"
+"" Plug 'leafgarland/typescript-vim'                     "typescript syntax"
+"" Plug 'Quramy/tsuquyomi'				"typescript ide support"
 
 "status line plugin"
 Plug 'vim-airline/vim-airline'
@@ -23,19 +23,19 @@ Plug 'vim-airline/vim-airline-themes'
 
 
 "------Plugins for snippets "
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'wakatime/vim-wakatime'
-Plug 'tomtom/tlib_vim'
-Plug 'garbas/vim-snipmate'
-Plug 'honza/vim-snippets'
+" Plug 'MarcWeber/vim-addon-mw-utils'
+"Plug 'tomtom/tlib_vim'
+"Plug 'garbas/vim-snipmate'
+"Plug 'honza/vim-snippets'
 
 "------Plugins for programming-syntax"
-Plug 'posva/vim-vue'		"for vue syntax"
+"Plug 'posva/vim-vue'		"for vue syntax"
+Plug 'wakatime/vim-wakatime'
 
 "====== adding plugins from specific file ======
 source ~/.config/nvim/plugins/nerdtree_and_tagbar.vim
-source ~/.config/nvim/plugins/syntastic.vim
-source ~/.config/nvim/plugins/vim-cpp-configs.vim
+"source ~/.config/nvim/plugins/syntastic.vim
+"source ~/.config/nvim/plugins/vim-cpp-configs.vim
 source ~/.config/nvim/plugins/git_plugins.vim
 source ~/.config/nvim/plugins/vim-system-copy.vim
 source ~/.config/nvim/plugins/vim_commentary_surround_emmet.vim
