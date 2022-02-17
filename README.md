@@ -57,3 +57,16 @@ add following to .profile ( have already added in **mac_config** just softlink
 export LC_ALL=en_US.UTF-8
 ```
 
+
+## Ctags
+Install ctags which are used for right panel in neovim
+```bash
+brew install ctags
+```
+
+## COC config
+* install coc.nvim ( already in plugins file )
+* install coc support (e.g. python and scala)
+```bash
+:CocInstall coc-python coc-metals
+```
