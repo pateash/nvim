@@ -57,3 +57,9 @@ add following to .profile ( have already added in **mac_config** just softlink
 export LC_ALL=en_US.UTF-8
 ```
 
+
+## Ctags
+Install ctags which are used for right panel in neovim
+```bash
+brew install ctags
+```
