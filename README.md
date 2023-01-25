@@ -15,7 +15,7 @@ sudo apt-get install fonts-powerline
 
 ```bash
 brew tap homebrew/cask-fonts
-brew cask install font-ubuntu-mono-derivative-powerline
+brew install --cask font-ubuntu-mono-derivative-powerline
 ```
 
 alternative instructions- 
