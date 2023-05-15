@@ -63,6 +63,18 @@ Install ctags which are used for right panel in neovim
 ```bash
 brew install ctags
 ```
+* only installing ctags might not work in vimr, so added this as well in vim config ( might want to update version if required, check 
+```bash
+ctags --version
+```
+
+added following in **nvim_configs.vim**
+```
+let g:tagbar_ctags_bin='/opt/homebrew/Cellar/ctags/5.8_2/bin/ctags'
+```
+
+
+
 
 ## COC config
 * install coc.nvim ( already in plugins file )
