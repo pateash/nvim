@@ -25,4 +25,4 @@ nnoremap <leader>cd :lcd %:p:h<CR>:NERDTreeCWD<CR>:cd %:p:h<CR>:pwd<CR>
 nnoremap <leader>ep :tabedit ~/dev/cp/src/main/main.cpp<CR>:vsp ~/dev/cp/src/resources/in.txt<CR>:sp ~/dev/cp/src/resources/out.txt<CR>
 
 " adding ctags directory, might need to update version if required in future, check using "ctags --version" after "brew install ctags"
-let g:tagbar_ctags_bin=/opt/homebrew/Cellar/ctags/5.8_2/bin
+let g:tagbar_ctags_bin='/opt/homebrew/Cellar/ctags/5.8_2/bin/ctags'
