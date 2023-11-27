@@ -64,9 +64,4 @@ Install ctags which are used for right panel in neovim
 brew install ctags
 ```
 
-## COC config
-* install coc.nvim ( already in plugins file )
-* install coc support (e.g. python and scala)
-```bash
-:CocInstall coc-python coc-metals
-```
+

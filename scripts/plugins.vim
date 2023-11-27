@@ -29,7 +29,6 @@ Plug 'vim-airline/vim-airline-themes'
 "Plug 'honza/vim-snippets'
 
 "------Plugins for programming-syntax"
-"Plug 'posva/vim-vue'		"for vue syntax"
 Plug 'wakatime/vim-wakatime'
 
 "====== adding plugins from specific file ======

@@ -15,7 +15,7 @@ set noswapfile
 source 	~/.config/nvim/scripts/nvim_configs.vim
 
 
-"-------------Mappings--------------"
+"-------------Key Mappings--------------"
 source 	~/.config/nvim/scripts/movements.vim
 source 	~/.config/nvim/scripts/split_management.vim
 source 	~/.config/nvim/scripts/tab_management.vim
